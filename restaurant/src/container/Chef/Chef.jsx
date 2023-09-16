@@ -9,7 +9,7 @@ const Chef = () => (
     <div className="app__wrapper_img app__img-reverse">
       <img src={images.chef} alt="chef-titi" />
     </div>
-    <div className="app__wrapper_info">
+    <div className="app__wrapper_info" style={{marginTop: '1rem'}}>
       <SubHeading title="Chef's Word" />
       <h1 className="headtext__cormorant">What we believe in</h1>
       <div className="app__chef-content">
